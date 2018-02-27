@@ -9,7 +9,7 @@ setup(
     license='MIT',
     author='Alexander Escalona Fernández',
     author_email='alexescalonafernandez@gmail.com',
-    setup_requires=['setuptools-markdown', 'service-locator'],
+    setup_requires=['setuptools-markdown', 'service-locator', 'django'],
     description='Django application that allows the use of a light implementation of the service locator pattern.',
     long_description_markdown_filename='README.md',
     classifiers=[
